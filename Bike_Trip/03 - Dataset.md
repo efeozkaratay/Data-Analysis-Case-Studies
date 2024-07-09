@@ -25,20 +25,20 @@ Data structure of bike trips tables;
 
 <br />
 
-|  Column  |  Data Type  |
-|  ---  |  ---  |
-|  trip_id  |  int  |
-|  start_time  |  datetime2(7)  |
-|  end_time  |  datetime2(7)  |
-|  bikeid  |  int  |
-|  tripduration  |float  |
-|  from_station_id  |  smallint  |
+|  Column             |  Data Type  |
+|  ---                |  ---           |
+|  trip_id            |  int           |
+|  start_time         |  datetime2(7)  |
+|  end_time           |  datetime2(7)  |
+|  bikeid             |  int           |
+|  tripduration       |  float         |
+|  from_station_id    |  smallint      |
 |  from_station_name  |  nvarchar(50)  |
-|  to_station_id  |  smallint  |
-|  to_station_name  |  nvarchar(50)  |
-|  usertype  |nvarchar(50)  |
-|  gender  |  nvarchar(50)  |
-|  birthyear  |  int  |
+|  to_station_id      |  smallint      |
+|  to_station_name    |  nvarchar(50)  |
+|  usertype           |  nvarchar(50)  |
+|  gender             |  nvarchar(50)  |
+|  birthyear          |  int           |
 
 <br />
 
@@ -56,9 +56,9 @@ Data structure of bike stations table;
 
 <br />
 
-|  Column  |  Data Type  |
-|  ---  |  ---  |
-|  id  |  smallint  |
-|  name  |  nvarchar(50)  |
-|  latitude  |  decimal(9, 6)  |
+|  Column     |  Data Type      |
+|  ---        |  ---            |
+|  id         |  smallint       |
+|  name       |  nvarchar(50)   |
+|  latitude   |  decimal(9, 6)  |
 |  longitude  |  decimal(9, 6)  |
