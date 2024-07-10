@@ -1,5 +1,17 @@
 ## SQL Server Queries For Data Analysis
 
+1.        [Customer / Subscriber Ratio](#1-query-to-create-list-of-yearly-trip-count-for-customers-subscribers)
+2.        [Popular Months](#2.  Query to create list of yearly most popular months for customers/subscribers;)
+3.        [Popular Days](#3.  Query to create list of yearly most popular days for customers/subscribers;)
+4.        [Time Periods](#)
+5.        [Trip Durations](#)
+6.        [Age Groups and Gender](#)
+7.        [Most Used Start Stations](#)
+8.        [Most Used End Stations](#)
+9.        [Popular Routes](#)
+10.         [Hello](#hello)
+
+####      hello
 ####  1.  Query to create list of yearly trip count for customers/subscribers;
 
 ``` sql
