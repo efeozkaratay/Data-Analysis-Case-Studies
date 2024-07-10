@@ -1,8 +1,8 @@
 ## Data Analysis
 
-[1.        Customer / Subscriber Ratio](#1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
+[1.        Customer / Subscriber Ratio](  #1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
 
-[2.        Popular Months](#2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
+[2.        Popular Months](               #2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
 
 [3.        Popular Days](#3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
 
