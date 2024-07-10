@@ -1,6 +1,6 @@
 ## Bike Trip Case Study Dataset
 
-### Bike Trips Data
+###  A.  Bike Trips Dataset
 
 <br />
 
@@ -42,7 +42,7 @@ Data structure of bike trips tables;
 
 <br />
 
-### Bike Station Data 
+###  B.  Bike Station Dataset 
 
 <br />
 
