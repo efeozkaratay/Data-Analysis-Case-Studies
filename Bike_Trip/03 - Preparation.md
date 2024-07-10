@@ -1,6 +1,6 @@
 ## Data Preparation
 
-### Bike Trips Table
+###  A.  Bike Trips Table
 
 ####  1.  Adjusted all column names and data types to match table structure for all bike trip tables;
 
@@ -139,7 +139,7 @@ UPDATE       Bike_Data
 SET          trip_route = CONCAT(start_id, ' - ', end_id)
 ```
 
-### Bike Stations
+###  B.  Bike Stations
 
 ####  1.  Changed altitude-longitude columns data types to decimal(9,6) for Tableau visualisations. 
 
