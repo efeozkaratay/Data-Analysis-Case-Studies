@@ -397,6 +397,30 @@ WHERE
         T.row_count <= 10
 ```
 
+|	trip_year	|	usertype	|	end_id	|	end_station	|	trip_count	|	end_latitude	|	end_longitude	|
+|	---	|	---	|	---	|	---	|	---	|	---	|	---	|
+|	2017	|	Customer	|	35	|	Streeter Dr & Grand Ave	|	85.673	|	41.892.278	|	-87.612.043	|
+|	2017	|	Customer	|	76	|	Lake Shore Dr & Monroe St	|	38.933	|	41.880.958	|	-87.616.743	|
+|	2017	|	Customer	|	268	|	Lake Shore Dr & North Blvd	|	30.503	|	41.911.722	|	-87.626.804	|
+|	2017	|	Customer	|	177	|	Theater on the Lake	|	29.618	|	41.926.277	|	-87.630.834	|
+|	2017	|	Customer	|	90	|	Millennium Park	|	27.385	|	41.881.032	|	-87.624.084	|
+|	2017	|	Customer	|	85	|	Michigan Ave & Oak St	|	26.061	|	41.900.960	|	-87.623.777	|
+|	2017	|	Customer	|	3	|	Shedd Aquarium	|	23.285	|	41.867.226	|	-87.615.355	|
+|	2017	|	Customer	|	341	|	Adler Planetarium	|	17.003	|	41.866.095	|	-87.607.267	|
+|	2017	|	Customer	|	4	|	Burnham Harbor	|	13.672	|	41.856.268	|	-87.613.348	|
+|	2017	|	Customer	|	6	|	Dusable Harbor	|	13.628	|	41.885.042	|	-87.612.795	|
+|	2017	|	Subscriber	|	192	|	Canal St & Adams St	|	50.808	|	41.879.255	|	-87.639.904	|
+|	2017	|	Subscriber	|	77	|	Clinton St & Madison St	|	48.465	|	41.882.242	|	-87.641.066	|
+|	2017	|	Subscriber	|	91	|	Clinton St & Washington Blvd	|	45.292	|	41.883.380	|	-87.641.170	|
+|	2017	|	Subscriber	|	133	|	Kingsbury St & Kinzie St	|	32.591	|	41.889.177	|	-87.638.506	|
+|	2017	|	Subscriber	|	174	|	Canal St & Madison St	|	29.434	|	41.882.091	|	-87.639.833	|
+|	2017	|	Subscriber	|	81	|	Daley Center Plaza	|	28.781	|	41.884.451	|	-87.629.892	|
+|	2017	|	Subscriber	|	43	|	Michigan Ave & Washington St	|	28.701	|	41.883.550	|	-87.624.180	|
+|	2017	|	Subscriber	|	287	|	Franklin St & Arcade Pl	|	26.709	|	41.880.317	|	-87.635.185	|
+|	2017	|	Subscriber	|	100	|	Orleans St & Merchandise Mart Plaza	|	24.812	|	41.888.243	|	-87.636.390	|
+|	2017	|	Subscriber	|	110	|	State St & Erie St	|	23.163	|	41.893.992	|	-87.629.318	|
+
+
 ####  9.  Most popular trip routes by year and user type;
 
 #####  9.1.  Query to create a new table with trip counts of each route by year and user type;
@@ -457,3 +481,26 @@ FROM
 WHERE 
         T.row_count <= 10
 ```
+
+|	trip_year	|	usertype	|	trip_route	|	start_station	|	end_station	|	trip_count	|	start_latitude	|	start_longitude	|	end_latitude	|	end_longitude	|
+|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|
+|	2017	|	Customer	|	76 - 35	|	Lake Shore Dr & Monroe St	|	Streeter Dr & Grand Ave	|	10.971	|	41.880.958	|	-87.616.743	|	41.892.278	|	-87.612.043	|
+|	2017	|	Customer	|	35 - 35	|	Streeter Dr & Grand Ave	|	Streeter Dr & Grand Ave	|	9.128	|	41.892.278	|	-87.612.043	|	41.892.278	|	-87.612.043	|
+|	2017	|	Customer	|	35 - 268	|	Streeter Dr & Grand Ave	|	Lake Shore Dr & North Blvd	|	6.628	|	41.892.278	|	-87.612.043	|	41.911.722	|	-87.626.804	|
+|	2017	|	Customer	|	35 - 76	|	Streeter Dr & Grand Ave	|	Lake Shore Dr & Monroe St	|	6.311	|	41.892.278	|	-87.612.043	|	41.880.958	|	-87.616.743	|
+|	2017	|	Customer	|	35 - 177	|	Streeter Dr & Grand Ave	|	Theater on the Lake	|	6.147	|	41.892.278	|	-87.612.043	|	41.926.277	|	-87.630.834	|
+|	2017	|	Customer	|	268 - 35	|	Lake Shore Dr & North Blvd	|	Streeter Dr & Grand Ave	|	6.076	|	41.911.722	|	-87.626.804	|	41.892.278	|	-87.612.043	|
+|	2017	|	Customer	|	177 - 35	|	Theater on the Lake	|	Streeter Dr & Grand Ave	|	5.495	|	41.926.277	|	-87.630.834	|	41.892.278	|	-87.612.043	|
+|	2017	|	Customer	|	76 - 76	|	Lake Shore Dr & Monroe St	|	Lake Shore Dr & Monroe St	|	4.931	|	41.880.958	|	-87.616.743	|	41.880.958	|	-87.616.743	|
+|	2017	|	Customer	|	35 - 85	|	Streeter Dr & Grand Ave	|	Michigan Ave & Oak St	|	4.092	|	41.892.278	|	-87.612.043	|	41.900.960	|	-87.623.777	|
+|	2017	|	Customer	|	35 - 90	|	Streeter Dr & Grand Ave	|	Millennium Park	|	3.750	|	41.892.278	|	-87.612.043	|	41.881.032	|	-87.624.084	|
+|	2017	|	Subscriber	|	18 - 43	|	Wacker Dr & Washington St	|	Michigan Ave & Washington St	|	3.042	|	41.883.132	|	-87.637.321	|	41.883.550	|	-87.624.180	|
+|	2017	|	Subscriber	|	149 - 148	|	Calumet Ave & 33rd St	|	State St & 33rd St	|	2.724	|	41.834.900	|	-87.617.930	|	41.834.734	|	-87.625.813	|
+|	2017	|	Subscriber	|	320 - 241	|	Loomis St & Lexington St	|	Morgan St & Polk St	|	2.711	|	41.872.187	|	-87.661.501	|	41.871.737	|	-87.651.030	|
+|	2017	|	Subscriber	|	174 - 43	|	Canal St & Madison St	|	Michigan Ave & Washington St	|	2.682	|	41.882.091	|	-87.639.833	|	41.883.550	|	-87.624.180	|
+|	2017	|	Subscriber	|	237 - 148	|	Martin Luther King Dr & 29th St	|	State St & 33rd St	|	2.603	|	41.842.052	|	-87.617.000	|	41.834.734	|	-87.625.813	|
+|	2017	|	Subscriber	|	43 - 192	|	Michigan Ave & Washington St	|	Canal St & Adams St	|	2.578	|	41.883.550	|	-87.624.180	|	41.879.255	|	-87.639.904	|
+|	2017	|	Subscriber	|	195 - 91	|	Columbus Dr & Randolph St	|	Clinton St & Washington Blvd	|	2.505	|	41.884.728	|	-87.619.521	|	41.883.380	|	-87.641.170	|
+|	2017	|	Subscriber	|	192 - 43	|	Canal St & Adams St	|	Michigan Ave & Washington St	|	2.472	|	41.879.255	|	-87.639.904	|	41.883.550	|	-87.624.180	|
+|	2017	|	Subscriber	|	148 - 149	|	State St & 33rd St	|	Calumet Ave & 33rd St	|	2.441	|	41.834.734	|	-87.625.813	|	41.834.900	|	-87.617.930	|
+|	2017	|	Subscriber	|	91 - 43	|	Clinton St & Washington Blvd	|	Michigan Ave & Washington St	|	2.409	|	41.883.380	|	-87.641.170	|	41.883.550	|	-87.624.180	|
