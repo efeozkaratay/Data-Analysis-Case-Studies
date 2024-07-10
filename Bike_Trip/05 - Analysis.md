@@ -1,9 +1,10 @@
 ## SQL Server Queries For Data Analysis
 
-[Customer / Subscriber Ratio](#1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
-[Popular Months](#2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
-[Popular Days](#3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
-[Time Periods](#4--query-to-create-list-of-yearly-most-popular-time-periods-for-customerssubscribers)
+1.        [Customer / Subscriber Ratio](#1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
+2.        [Popular Months](#2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
+3.        [Popular Days](#3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
+4.        [Time Periods](#4--query-to-create-list-of-yearly-most-popular-time-periods-for-customerssubscribers)
+
 [Trip Durations](#5--query-to-create-list-of-yearly-most-popular-trip-durations-for-customerssubscribers)
 [Age Groups and Gender](#6--query-to-create-list-of-different-gender-and-age-groups-of-subscribers-for-each-year)
 [Most Used Start Stations](#72--query-to-create-a-list-of-yearly-10-most-popular-start-stations-for-customerssubscribers)
