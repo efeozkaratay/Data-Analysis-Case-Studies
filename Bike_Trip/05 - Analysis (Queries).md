@@ -16,6 +16,15 @@ ORDER BY
         usertype
 ```
 
+|  trip_year  |  usertype    |  count      |
+|  ---	      |  ---         |  ---        |
+|	2017	      |  Customer    |    836.864  |
+|	2017	      |  Subscriber  |  2.988.733  |
+|	2018	      |  Customer    |    676.162  |
+|	2018	      |  Subscriber  |  2.914.506  |
+|	2019	      |  Customer    |    879.188  |
+|	2019	      |  Subscriber  |  2.912.917  |
+
 ####  2.  Query to create list of yearly most popular months for customers/subscribers;
 
 ``` sql
@@ -35,6 +44,21 @@ ORDER BY
         trip_month
 ```
 
+|  trip_year  |  usertype  |  trip_month  |  count    |
+|  ---        |  ---       |  ---         |  ---      |
+|  2017       |  Customer  |  1           |    5.316  |
+|  2017       |  Customer  |  2           |   23.587  |
+|  2017       |  Customer  |  3           |   12.496  |
+|  2017       |  Customer  |  4           |   61.247  |
+|  2017       |  Customer  |  5           |   82.319  |
+|  2017       |  Customer  |  6           |  132.190  |
+|  2017       |  Customer  |  7           |  179.379  |
+|  2017       |  Customer  |  8           |  146.056  |
+|  2017       |  Customer  |  9           |  116.191  |
+|  2017       |  Customer  |  10          |   58.809  |
+|  2017       |  Customer  |  11          |   12.699  |
+|  2017       |  Customer  |  12          |    6.575  |
+
 ####  3.  Query to create list of yearly most popular days for customers/subscribers;
 
 ``` sql
@@ -53,6 +77,23 @@ ORDER BY
         usertype,
         trip_day
 ```
+
+|	trip_year	|	usertype  	|	trip_day	|	count	  |
+|	---	      |	---        	|	---	      |	---	    |
+|	2017	    |	Customer  	|	Friday	  |	 96.453	|
+|	2017	    |	Customer  	|	Monday	  |	106.775	|
+|	2017	    |	Customer  	|	Saturday	|	224.613	|
+|	2017	    |	Customer	  |	Sunday	  |	201.476	|
+|	2017    	|	Customer	  |	Thursday	|	 67.910 |
+|	2017    	|	Customer  	|	Tuesday	  |	 77.836 |
+|	2017	    |	Customer	  |	Wednesday	|	 61.801 |
+|	2017    	|	Subscriber	|	Friday	  |	457.670	|
+|	2017    	|	Subscriber	|	Monday	  |	471.600	|
+|	2017    	|	Subscriber	|	Saturday	|	306.103	|
+|	2017	    |	Subscriber	|	Sunday  	|	290.821	|
+|	2017	    |	Subscriber	|	Thursday	|	481.591	|
+|	2017	    |	Subscriber	|	Tuesday	  |	500.423	|
+|	2017    	|	Subscriber	|	Wednesday	|	480.525	|
 
 ####  4.  Query to create list of yearly most popular time periods for customers/subscribers;
 
@@ -90,6 +131,23 @@ ORDER BY
         time_period
 ```
 
+|	trip_year	|	usertype	  |	time_period	  |	count	  |
+|	---      	|	---	        |	---	          |	---	    |
+|	2017	    |	Customer	  |	00:00 - 06:00	|	 14.604	|
+|	2017	    |	Customer	  |	06:00 - 08:00	|	  9.134	|
+|	2017	    |	Customer	  |	08:00 - 10:00	|	 43.005	|
+|	2017	    |	Customer	  |	10:00 - 14:00	|	277.093	|
+|	2017	    |	Customer	  |	14:00 - 17:00	|	256.071	|
+|	2017	    |	Customer	  |	17:00 - 20:00	|	164.413	|
+|	2017	    |	Customer	  |	20:00 - 00:00	|	 72.544	|
+|	2017	    |	Subscriber	|	00:00 - 06:00	|	 72.659	|
+|	2017	    |	Subscriber	|	06:00 - 08:00	|	317.769	|
+|	2017	    |	Subscriber	|	08:00 - 10:00	|	420.820	|
+|	2017	    |	Subscriber	|	10:00 - 14:00	|	525.088	|
+|	2017	    |	Subscriber	|	14:00 - 17:00	|	587.370	|
+|	2017	    |	Subscriber	|	17:00 - 20:00	|	798.473	|
+|	2017	    |	Subscriber	|	20:00 - 00:00	|	266.554	|
+
 ####  5.  Query to create list of yearly most popular trip durations for customers/subscribers;
 
 ``` sql
@@ -125,6 +183,23 @@ ORDER BY
         usertype,
         duration_group
 ```
+
+|	trip_year	|	usertype	  |	duration_group  |	count	    |
+|	---	      |	---	        |	---	            |	---	      |
+|	2017	    |	Customer	  |	<15 Minutes	    |	  211.872	|
+|	2017	    |	Customer	  |	1-2 Hours	      |	   53.858	|
+|	2017	    |	Customer	  |	15-30 Minutes	  |	  390.926	|
+|	2017	    |	Customer	  |	2-4 Hours	      |	   13.523	|
+|	2017	    |	Customer	  |	30-60 Minutes	  |	  163.490	|
+|	2017	    |	Customer	  |	4-6 Hours	      |	    1.661	|
+|	2017	    |	Customer	  |	6+ Hours	      |	    1.534	|
+|	2017	    |	Subscriber	|	<15 Minutes	    |	2.277.108	|
+|	2017	    |	Subscriber	|	1-2 Hours	      |	    4.543	|
+|	2017	    |	Subscriber	|	15-30 Minutes	  |	  653.833	|
+|	2017	    |	Subscriber	|	2-4 Hours	      |	      957	|
+|	2017	    |	Subscriber	|	30-60 Minutes	  |	   51.259	|
+|	2017	    |	Subscriber	|	4-6 Hours	      |	      248	|
+|	2017	    |	Subscriber	|	6+ Hours	      |	      785	|
 
 ####  6.  Query to create list of different gender and age groups of subscribers for each year;
 
@@ -175,6 +250,25 @@ ORDER BY
         age_group,
         gender
 ```
+
+|	trip_year	|	age_group	|	gender	|	count	  |
+|	---	      |	---	      |	---	    |	---	    |
+|	2017	    |	15-20	    |	Female	|  10.069	|
+|	2017	    |	15-20	    |	Male	  |  23.312	|
+|	2017	    |	21-25	    |	Female	|	122.703	|
+|	2017	    |	21-25	    |	Male	  |	287.680	|
+|	2017	    |	26-30	    |	Female	|	231.800	|
+|	2017	    |	26-30	    |	Male	  |	589.107	|
+|	2017	    |	31-35	    |	Female	|	149.833	|
+|	2017	    |	31-35	    |	Male	  |	454.051	|
+|	2017	    |	36-40	    |	Female	|  72.451	|
+|	2017	    |	36-40	    |	Male	  |	277.246	|
+|	2017	    |	41-45	    |	Female	|  39.190	|
+|	2017	    |	41-45	    |	Male	  |	175.628	|
+|	2017	    |	46-50	    |	Female	|  41.433	|
+|	2017	    |	46-50	    |	Male	  |	146.473	|
+|	2017	    |	51-55	    |	Female	|  37.857	|
+|	2017	    |	51-55	    |	Male	  |	124.371	|
 
 ####  7.  Most popular start stations by year and user type;
 
@@ -227,6 +321,29 @@ FROM
 WHERE 
         T.row_count <= 10
 ```
+
+|	trip_year	|	usertype	  |	start_id	|	start_station                      	|	trip_count  |	start_latitude	|	start_longitude	|
+|	---	      |	---	        |	---	      |	---	                                |	---	        |	---            	|	---	            |
+|	2017	    |	Customer	  |  35      	|	Streeter Dr & Grand Ave	            |	77.368     	|	41.892278	      |	-87.612043	    |
+|	2017    	|	Customer	  |  76      	|	Lake Shore Dr & Monroe St	          |	42.151	    |	41.880958	      |	-87.616743    	|
+|	2017	    |	Customer	  |	268      	|	Lake Shore Dr & North Blvd	        |	28.096	    |	41.911722      	|	-87.626804	    |
+|	2017	    |	Customer	  |	177	      |	Theater on the Lake                	|	26.399	    |	41.926277	      |	-87.630834    	|
+|	2017	    |	Customer	  |   3	      |	Shedd Aquarium                    	|	25.242	    |	41.867226      	|	-87.615355	    |
+|	2017    	|	Customer	  |  90	      |	Millennium Park	                    |	23.457	    |	41.881032      	|	-87.624084	    |
+|	2017	    |	Customer	  |  85	      |	Michigan Ave & Oak St              	|	23.180	    |	41.900960      	|	-87.623777	    |
+|	2017	    |	Customer	  |	341	      |	Adler Planetarium	                  |	17.929	    |	41.866095	      |	-87.607267	    |
+|	2017    	|	Customer	  |   6	      |	Dusable Harbor                    	|	17.639    	|	41.885042      	|	-87.612795	    |
+|	2017	    |	Customer	  |	  4	      |	Burnham Harbor	                    |	13.413    	|	41.856268	      |	-87.613348	    |
+|	2017    	|	Subscriber	|	192	      |	Canal St & Adams St	                |	48.855	    |	41.879255      	|	-87.639904	    |
+|	2017    	|	Subscriber	|  91	      |	Clinton St & Washington Blvd	      |	47.977	    |	41.883380	      |	-87.641170	    |
+|	2017	    |	Subscriber	|  77	      |	Clinton St & Madison St	            |	42.386	    |	41.882242	      |	-87.641066	    |
+|	2017	    |	Subscriber	|	133	      |	Kingsbury St & Kinzie St	          |	32.914	    |	41.889177      	|	-87.638506	    |
+|	2017	    |	Subscriber	|	287	      |	Franklin St & Arcade Pl	            |	32.237    	|	41.880317      	|	-87.635185	    |
+|	2017	    |	Subscriber	|	174	      |	Canal St & Madison St	              |	31.885	    |	41.882091	      |	-87.639833	    |
+|	2017	    |	Subscriber	|	195      	|	Columbus Dr & Randolph St          	|	29.039	    |	41.884728	      |	-87.619521	    |
+|	2017	    |	Subscriber	|  81	      |	Daley Center Plaza	                |	28.579	    |	41.884451      	|	-87.629892	    |
+|	2017	    |	Subscriber	|	100	      |	Orleans St & Merchandise Mart Plaza	|	27.357	    |	41.888243	      |	-87.636390	    |
+|	2017	    |	Subscriber	|  43      	|	Michigan Ave & Washington St	      |	25.931	    |	41.883550	      |	-87.624180	    |
 
 ####  8.  Most popular end stations by year and user type;
 
