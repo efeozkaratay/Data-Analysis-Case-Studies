@@ -176,44 +176,167 @@ ORDER BY
         gender
 ```
 
-####  7.  
+####  7.  Most popular start stations by year and user type;
 
-#####  7.1.  
+#####  7.1.  Query to create a new table with trip counts of each start station by year and user type;
 
 ``` sql
-
+SELECT  *
+INTO    Start_Stations
+FROM
+        (
+        SELECT
+            trip_year,
+            usertype,
+            start_id,
+            start_station,
+            COUNT(*)  AS  trip_count,
+            start_latitude,
+            start_longitude
+        FROM
+            Bike_Data
+        GROUP BY
+            trip_year,
+            usertype,
+            start_id,
+            start_station,
+            start_latitude,
+            start_longitude
+        )  a
 ```
 
-#####  7.2.  
+#####  7.2.  Query to create a list of yearly 10 most popular start stations for customers/subscribers;
 
 ``` sql
-
+SELECT  
+        trip_year,
+        usertype,
+        start_id,
+        start_station,
+        trip_count,
+        start_latitude,
+        start_longitude
+FROM
+        (
+        SELECT 
+              *,
+              ROW_NUMBER() OVER(partition by trip_year, usertype ORDER BY trip_count DESC) AS row_count
+        FROM
+              Start_Stations
+        ) AS  T
+WHERE 
+        T.row_count <= 10
 ```
 
-####  8.  
+####  8.  Most popular end stations by year and user type;
 
-#####  8.1.  
+#####  8.1.  Query to create a new table with trip counts of each end station by year and user type;
 
 ``` sql
-
+SELECT  *
+INTO    End_Stations
+FROM
+        (
+        SELECT
+              trip_year,
+              usertype,
+              end_id,
+              end_station,
+              COUNT(*)  AS  trip_count,
+              end_latitude,
+              end_longitude
+        FROM
+              Bike_Data
+        GROUP BY
+              trip_year,
+              usertype,
+              end_id,
+              end_station,
+              end_latitude,
+              end_longitude
+        )  a
 ```
 
-#####  8.2.  
+#####  8.2.  Query to create a list of yearly 10 most popular end stations for customers/subscribers;
 
 ``` sql
-
+SELECT  
+        trip_year,
+        usertype,
+        end_id,
+        end_station,
+        trip_count,
+        end_latitude,
+        end_longitude
+FROM
+        (
+        SELECT 
+              *,
+              ROW_NUMBER() OVER(partition by trip_year, usertype ORDER BY trip_count DESC) AS row_count
+        FROM
+              End_Stations
+        ) AS T
+WHERE 
+        T.row_count <= 10
 ```
 
-####  9.  
+####  9.  Most popular trip routes by year and user type;
 
-#####  9.1.  
+#####  9.1.  Query to create a new table with trip counts of each route by year and user type;
 
 ``` sql
-
+SELECT  *
+INTO    Trip_Routes
+FROM
+        (
+        SELECT
+              trip_year,
+              usertype,
+              trip_route,
+              start_station,
+              end_station,
+              COUNT(*)  AS  trip_count,
+              start_latitude,
+              start_longitude,
+              end_latitude,
+              end_longitude
+        FROM
+              Bike_Data
+        GROUP BY
+              trip_year,
+              usertype,
+              trip_route,
+              start_station,
+              end_station,
+              start_latitude,
+              start_longitude,
+              end_latitude,
+              end_longitude
+        ) a
 ```
 
-#####  9.2.  
+#####  9.2.  Query to create a list of yearly 10 most popular route for customers/subscribers;
 
 ``` sql
-
+SELECT  
+        trip_year,
+        usertype,
+        trip_route,
+        start_station,
+        end_station,
+        trip_count,
+        start_latitude,
+        start_longitude,
+        end_latitude,
+        end_longitude
+FROM
+        (
+        SELECT 
+              *,
+              ROW_NUMBER() OVER(partition by trip_year, usertype ORDER BY trip_count DESC) AS row_count
+        FROM
+              Trip_Routes
+        ) AS T
+WHERE 
+        T.row_count <= 10
 ```
