@@ -1,17 +1,15 @@
 ## SQL Server Queries For Data Analysis
 
 [Customer / Subscriber Ratio](#1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
-2.        [Popular Months](#2.  Query to create list of yearly most popular months for customers/subscribers;)
-3.        [Popular Days](#3.  Query to create list of yearly most popular days for customers/subscribers;)
-4.        [Time Periods](#)
-5.        [Trip Durations](#)
-6.        [Age Groups and Gender](#)
-7.        [Most Used Start Stations](#)
-8.        [Most Used End Stations](#)
-9.        [Popular Routes](#)
-10.         [Hello](#hello)
+[Popular Months](#2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
+[Popular Days](#3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
+[Time Periods](#4--query-to-create-list-of-yearly-most-popular-time-periods-for-customerssubscribers)
+[Trip Durations](#5--query-to-create-list-of-yearly-most-popular-trip-durations-for-customerssubscribers)
+[Age Groups and Gender](#6--query-to-create-list-of-different-gender-and-age-groups-of-subscribers-for-each-year)
+[Most Used Start Stations](#72--query-to-create-a-list-of-yearly-10-most-popular-start-stations-for-customerssubscribers)
+[Most Used End Stations](#82--query-to-create-a-list-of-yearly-10-most-popular-end-stations-for-customerssubscribers)
+[Popular Routes](#92--query-to-create-a-list-of-yearly-10-most-popular-route-for-customerssubscribers)
 
-####      hello
 ####  1.  Query to create list of yearly trip count for customers/subscribers;
 
 ``` sql
