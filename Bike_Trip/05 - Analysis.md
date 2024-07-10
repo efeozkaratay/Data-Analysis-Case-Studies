@@ -1,15 +1,22 @@
-## SQL Server Queries For Data Analysis
+## Data Analysis
 
-1.        [Customer / Subscriber Ratio](#1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
-2.        [Popular Months](#2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
-3.        [Popular Days](#3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
-4.        [Time Periods](#4--query-to-create-list-of-yearly-most-popular-time-periods-for-customerssubscribers)
+[1.        Customer / Subscriber Ratio](#1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
 
-[Trip Durations](#5--query-to-create-list-of-yearly-most-popular-trip-durations-for-customerssubscribers)
-[Age Groups and Gender](#6--query-to-create-list-of-different-gender-and-age-groups-of-subscribers-for-each-year)
-[Most Used Start Stations](#72--query-to-create-a-list-of-yearly-10-most-popular-start-stations-for-customerssubscribers)
-[Most Used End Stations](#82--query-to-create-a-list-of-yearly-10-most-popular-end-stations-for-customerssubscribers)
-[Popular Routes](#92--query-to-create-a-list-of-yearly-10-most-popular-route-for-customerssubscribers)
+[2.        Popular Months](#2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
+
+[3.        Popular Days](#3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
+
+[4.        Time Periods](#4--query-to-create-list-of-yearly-most-popular-time-periods-for-customerssubscribers)
+
+[5.        Trip Durations](#5--query-to-create-list-of-yearly-most-popular-trip-durations-for-customerssubscribers)
+
+[6.        Age Groups and Gender](#6--query-to-create-list-of-different-gender-and-age-groups-of-subscribers-for-each-year)
+
+[7.        Most Used Start Stations](#72--query-to-create-a-list-of-yearly-10-most-popular-start-stations-for-customerssubscribers)
+
+[8.        Most Used End Stations](#82--query-to-create-a-list-of-yearly-10-most-popular-end-stations-for-customerssubscribers)
+
+[9.        Popular Routes](#92--query-to-create-a-list-of-yearly-10-most-popular-route-for-customerssubscribers)
 
 ####  1.  Query to create list of yearly trip count for customers/subscribers;
 
