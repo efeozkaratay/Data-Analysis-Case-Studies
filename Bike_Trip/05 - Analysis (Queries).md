@@ -1,4 +1,4 @@
-## Data Analysis
+## SQL Server Queries For Data Analysis
 
 ####  1.  Query to create list of yearly trip count for customers/subscribers;
 
