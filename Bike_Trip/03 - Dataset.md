@@ -62,3 +62,5 @@ Data structure of bike stations table;
 |  name       |  nvarchar(50)   |
 |  latitude   |  decimal(9, 6)  |
 |  longitude  |  decimal(9, 6)  |
+
+###### [Back to top](#bike-trip-case-study-dataset)
