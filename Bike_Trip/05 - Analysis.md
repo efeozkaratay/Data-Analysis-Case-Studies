@@ -35,14 +35,14 @@ ORDER BY
         usertype
 ```
 
-|  trip_year  |  usertype    |  count      |
-|  :---:	    |  ---         |  ---:       |
-|	2017	      |  Customer    |    836.864  |
-|	2017	      |  Subscriber  |  2.988.733  |
-|	2018	      |  Customer    |    676.162  |
-|	2018	      |  Subscriber  |  2.914.506  |
-|	2019	      |  Customer    |    879.188  |
-|	2019	      |  Subscriber  |  2.912.917  |
+| trip_year | usertype   |     count |
+| :---:     | ---        |      ---: |
+| 2017      | Customer   |   836.864 |
+| 2017      | Subscriber | 2.988.733 |
+| 2018      | Customer   |   676.162 |
+| 2018      | Subscriber | 2.914.506 |
+| 2019      | Customer   |   879.188 |
+| 2019      | Subscriber | 2.912.917 |
 
 ####  2.  Query to create list of yearly most popular months for customers/subscribers;
 
