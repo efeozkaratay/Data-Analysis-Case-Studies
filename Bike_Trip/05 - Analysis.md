@@ -20,6 +20,15 @@
 
 <br />
 
+This section is created to answer ***"How do subscribers and customers use bikes differently?"*** by analyzing the historical bike trip data to identify trends. Results of these 9 criteria listed above in this section will be used to create visualisations and design marketing strategies aimed at converting customers into subscribers.
+
+<br />
+
+*<sup>*Some of the tables in this section doesn't include all of its rows due to limited space.</sup>*
+
+<br />
+
+
 ####  1.  Query to create list of yearly trip count for customers/subscribers;
 
 ``` sql
