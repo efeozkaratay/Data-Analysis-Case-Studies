@@ -150,22 +150,22 @@ ORDER BY
         time_period
 ```
 
-|	trip_year	|	usertype	  |	time_period	  |	count	  |
-|	:---:    	|	---	        |	---	          |	---:    |
-|	2017	    |	Customer	  |	00:00 - 06:00	|	 14.604	|
-|	2017	    |	Customer	  |	06:00 - 08:00	|	  9.134	|
-|	2017	    |	Customer	  |	08:00 - 10:00	|	 43.005	|
-|	2017	    |	Customer	  |	10:00 - 14:00	|	277.093	|
-|	2017	    |	Customer	  |	14:00 - 17:00	|	256.071	|
-|	2017	    |	Customer	  |	17:00 - 20:00	|	164.413	|
-|	2017	    |	Customer	  |	20:00 - 00:00	|	 72.544	|
-|	2017	    |	Subscriber	|	00:00 - 06:00	|	 72.659	|
-|	2017	    |	Subscriber	|	06:00 - 08:00	|	317.769	|
-|	2017	    |	Subscriber	|	08:00 - 10:00	|	420.820	|
-|	2017	    |	Subscriber	|	10:00 - 14:00	|	525.088	|
-|	2017	    |	Subscriber	|	14:00 - 17:00	|	587.370	|
-|	2017	    |	Subscriber	|	17:00 - 20:00	|	798.473	|
-|	2017	    |	Subscriber	|	20:00 - 00:00	|	266.554	|
+| trip_year |  usertype  |  time_period  |  count  |
+|   :---:   |    ---     |      ---      |   ---:  |
+|   2017    |  Customer  | 00:00 - 06:00 |  14.604 |
+|   2017    |  Customer  | 06:00 - 08:00 |   9.134 |
+|   2017    |  Customer  | 08:00 - 10:00 |  43.005 |
+|   2017    |  Customer  | 10:00 - 14:00 | 277.093 |
+|   2017    |  Customer  | 14:00 - 17:00 | 256.071 |
+|   2017    |  Customer  | 17:00 - 20:00 | 164.413 |
+|   2017    |  Customer  | 20:00 - 00:00 |  72.544 |
+|   2017    | Subscriber | 00:00 - 06:00 |  72.659 |
+|   2017    | Subscriber | 06:00 - 08:00 | 317.769 |
+|   2017    | Subscriber | 08:00 - 10:00 | 420.820 |
+|   2017    | Subscriber | 10:00 - 14:00 | 525.088 |
+|   2017    | Subscriber | 14:00 - 17:00 | 587.370 |
+|   2017    | Subscriber | 17:00 - 20:00 | 798.473 |
+|   2017    | Subscriber | 20:00 - 00:00 | 266.554 |
 
 ####  5.  Query to create list of yearly most popular trip durations for customers/subscribers;
 
