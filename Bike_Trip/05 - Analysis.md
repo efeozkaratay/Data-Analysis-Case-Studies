@@ -203,22 +203,22 @@ ORDER BY
         duration_group
 ```
 
-|	trip_year	|	usertype	  |	duration_group  |	count	    |
-|	:---:     |	---	        |	---:            |	---:      |
-|	2017	    |	Customer	  |	<15 Minutes	    |	  211.872	|
-|	2017	    |	Customer	  |	1-2 Hours	      |	   53.858	|
-|	2017	    |	Customer	  |	15-30 Minutes	  |	  390.926	|
-|	2017	    |	Customer	  |	2-4 Hours	      |	   13.523	|
-|	2017	    |	Customer	  |	30-60 Minutes	  |	  163.490	|
-|	2017	    |	Customer	  |	4-6 Hours	      |	    1.661	|
-|	2017	    |	Customer	  |	6+ Hours	      |	    1.534	|
-|	2017	    |	Subscriber	|	<15 Minutes	    |	2.277.108	|
-|	2017	    |	Subscriber	|	1-2 Hours	      |	    4.543	|
-|	2017	    |	Subscriber	|	15-30 Minutes	  |	  653.833	|
-|	2017	    |	Subscriber	|	2-4 Hours	      |	      957	|
-|	2017	    |	Subscriber	|	30-60 Minutes	  |	   51.259	|
-|	2017	    |	Subscriber	|	4-6 Hours	      |	      248	|
-|	2017	    |	Subscriber	|	6+ Hours	      |	      785	|
+| trip_year |  usertype  | duration_group |   count   |
+|   :---:   |    ---     |      ---:      |    ---:   |
+|   2017    |  Customer  |    <15 Minutes |   211.872 |
+|   2017    |  Customer  |    1-2 Hours   |    53.858 |
+|   2017    |  Customer  |  15-30 Minutes |   390.926 |
+|   2017    |  Customer  |    2-4 Hours   |    13.523 |
+|   2017    |  Customer  |  30-60 Minutes |   163.490 |
+|   2017    |  Customer  |    4-6 Hours   |     1.661 |
+|   2017    |  Customer  |     6+ Hours   |     1.534 |
+|   2017    | Subscriber |    <15 Minutes | 2.277.108 |
+|   2017    | Subscriber |    1-2 Hours   |     4.543 |
+|   2017    | Subscriber |  15-30 Minutes |   653.833 |
+|   2017    | Subscriber |    2-4 Hours   |       957 |
+|   2017    | Subscriber |  30-60 Minutes |    51.259 |
+|   2017    | Subscriber |    4-6 Hours   |       248 |
+|   2017    | Subscriber |     6+ Hours   |       785 |
 
 ####  6.  Query to create list of different gender and age groups of subscribers for each year;
 
