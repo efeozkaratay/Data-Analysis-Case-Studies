@@ -501,25 +501,25 @@ WHERE
         T.row_count <= 10
 ```
 
-|trip_year| usertype |trip_route| start_station | end_station |trip_count|start_latitude|start_longitude|end_latitude|end_longitude          |
-|  :---:  |   ---    |   ---:   |      ---      |     ---     |   ---:   |    :---:     |     :---:     |   :---:    |    :---:    |
-|  2017   | Customer |  76 - 35 | Lake Shore Dr | Streeter Dr |  10.971  |   41.880958  |   -87.616743  |  41.892278 | -87.612.043 |
-|	2017	|	Customer	|	35 - 35	|	Streeter Dr & Grand Ave	|	Streeter Dr & Grand Ave	|	9.128	|	41.892.278	|	-87.612.043	|	41.892.278	|	-87.612.043	|
-|	2017	|	Customer	|	35 - 268	|	Streeter Dr & Grand Ave	|	Lake Shore Dr & North Blvd	|	6.628	|	41.892.278	|	-87.612.043	|	41.911.722	|	-87.626.804	|
-|	2017	|	Customer	|	35 - 76	|	Streeter Dr & Grand Ave	|	Lake Shore Dr & Monroe St	|	6.311	|	41.892.278	|	-87.612.043	|	41.880.958	|	-87.616.743	|
-|	2017	|	Customer	|	35 - 177	|	Streeter Dr & Grand Ave	|	Theater on the Lake	|	6.147	|	41.892.278	|	-87.612.043	|	41.926.277	|	-87.630.834	|
-|	2017	|	Customer	|	268 - 35	|	Lake Shore Dr & North Blvd	|	Streeter Dr & Grand Ave	|	6.076	|	41.911.722	|	-87.626.804	|	41.892.278	|	-87.612.043	|
-|	2017	|	Customer	|	177 - 35	|	Theater on the Lake	|	Streeter Dr & Grand Ave	|	5.495	|	41.926.277	|	-87.630.834	|	41.892.278	|	-87.612.043	|
-|	2017	|	Customer	|	76 - 76	|	Lake Shore Dr & Monroe St	|	Lake Shore Dr & Monroe St	|	4.931	|	41.880.958	|	-87.616.743	|	41.880.958	|	-87.616.743	|
-|	2017	|	Customer	|	35 - 85	|	Streeter Dr & Grand Ave	|	Michigan Ave & Oak St	|	4.092	|	41.892.278	|	-87.612.043	|	41.900.960	|	-87.623.777	|
-|	2017	|	Customer	|	35 - 90	|	Streeter Dr & Grand Ave	|	Millennium Park	|	3.750	|	41.892.278	|	-87.612.043	|	41.881.032	|	-87.624.084	|
-|	2017	|	Subscriber	|	18 - 43	|	Wacker Dr & Washington St	|	Michigan Ave & Washington St	|	3.042	|	41.883.132	|	-87.637.321	|	41.883.550	|	-87.624.180	|
-|	2017	|	Subscriber	|	149 - 148	|	Calumet Ave & 33rd St	|	State St & 33rd St	|	2.724	|	41.834.900	|	-87.617.930	|	41.834.734	|	-87.625.813	|
-|	2017	|	Subscriber	|	320 - 241	|	Loomis St & Lexington St	|	Morgan St & Polk St	|	2.711	|	41.872.187	|	-87.661.501	|	41.871.737	|	-87.651.030	|
-|	2017	|	Subscriber	|	174 - 43	|	Canal St & Madison St	|	Michigan Ave & Washington St	|	2.682	|	41.882.091	|	-87.639.833	|	41.883.550	|	-87.624.180	|
-|	2017	|	Subscriber	|	237 - 148	|	Martin Luther King Dr & 29th St	|	State St & 33rd St	|	2.603	|	41.842.052	|	-87.617.000	|	41.834.734	|	-87.625.813	|
-|	2017	|	Subscriber	|	43 - 192	|	Michigan Ave & Washington St	|	Canal St & Adams St	|	2.578	|	41.883.550	|	-87.624.180	|	41.879.255	|	-87.639.904	|
-|	2017	|	Subscriber	|	195 - 91	|	Columbus Dr & Randolph St	|	Clinton St & Washington Blvd	|	2.505	|	41.884.728	|	-87.619.521	|	41.883.380	|	-87.641.170	|
-|	2017	|	Subscriber	|	192 - 43	|	Canal St & Adams St	|	Michigan Ave & Washington St	|	2.472	|	41.879.255	|	-87.639.904	|	41.883.550	|	-87.624.180	|
-|	2017	|	Subscriber	|	148 - 149	|	State St & 33rd St	|	Calumet Ave & 33rd St	|	2.441	|	41.834.734	|	-87.625.813	|	41.834.900	|	-87.617.930	|
-|	2017	|	Subscriber	|	91 - 43	|	Clinton St & Washington Blvd	|	Michigan Ave & Washington St	|	2.409	|	41.883.380	|	-87.641.170	|	41.883.550	|	-87.624.180	|
+|trip_year|  usertype  |trip_route | start_station | end_station |trip_count | start_latitude | start_longitude | end_latitude | end_longitude |
+|  :---:  |     ---    |   ---:    |      ---      |     ---     |   ---:    |     :---:      |      :---:      |    :---:     |     :---:     |
+|  2017   |  Customer  |  76 - 35  | Lake Shore Dr | Streeter Dr |  10.971   |    41.880958   |    -87.616743   |   41.892278  |   -87.612043  |
+|  2017   |  Customer  |  35 - 35  | Streeter Dr   | Streeter Dr |   9.128   |    41.892278   |    -87.612043   |   41.892278  |   -87.612043  |
+|  2017   |  Customer  |  35 - 268 | Streeter Dr   | Lake Shore  |   6.628   |    41.892278   |    -87.612043   |   41.911722  |   -87.626804  |
+|  2017   |  Customer  |  35 - 76  | Streeter Dr   | Lake Shore  |   6.311   |    41.892278   |    -87.612043   |   41.880958  |   -87.616743  |
+|  2017   |  Customer  |  35 - 177 | Streeter Dr   | Theater on  |   6.147   |    41.892278   |    -87.612043   |   41.926277  |   -87.630834  |
+|  2017   |  Customer  | 268 - 35  | Lake Shore Dr | Streeter Dr |   6.076   |    41.911722   |    -87.626804   |   41.892278  |   -87.612043  |
+|  2017   |  Customer  | 177 - 35  | Theater on    | Streeter Dr |   5.495   |    41.926277   |    -87.630834   |   41.892278  |   -87.612043  |
+|  2017   |  Customer  |  76 - 76  | Lake Shore Dr | Lake Shore  |   4.931   |    41.880958   |    -87.616743   |   41.880958  |   -87.616743  |
+|  2017   |  Customer  |  35 - 85  | Streeter Dr   | Michigan Av |   4.092   |    41.892278   |    -87.612043   |   41.900960  |   -87.623777  |
+|  2017   |  Customer  |  35 - 90  | Streeter Dr   | Millennium  |   3.750   |    41.892278   |    -87.612043   |   41.881032  |   -87.624084  |
+|  2017   | Subscriber |  18 - 43  | Wacker Dr     | Michigan Av |   3.042   |    41.883132   |    -87.637321   |   41.883550  |   -87.624180  |
+|  2017   | Subscriber | 149 - 148 | Calumet Ave   | State St    |   2.724   |    41.834900   |    -87.617930   |   41.834734  |   -87.625813  |
+|  2017   | Subscriber | 320 - 241 | Loomis St     | Morgan St   |   2.711   |    41.872187   |    -87.661501   |   41.871737  |   -87.651030  |
+|  2017   | Subscriber | 174 - 43  | Canal St      | Michigan Av |   2.682   |    41.882091   |    -87.639833   |   41.883550  |   -87.624180  |
+|  2017   | Subscriber | 237 - 148 | Martin Luther | State St    |   2.603   |    41.842052   |    -87.617000   |   41.834734  |   -87.625813  |
+|  2017   | Subscriber |  43 - 192 | Michigan Ave  | Canal St    |   2.578   |    41.883550   |    -87.624180   |   41.879255  |   -87.639904  |
+|  2017   | Subscriber | 195 - 91  | Columbus Dr   | Clinton St  |   2.505   |    41.884728   |    -87.619521   |   41.883380  |   -87.641170  |
+|  2017   | Subscriber | 192 - 43  | Canal St      | Michigan Av |   2.472   |    41.879255   |    -87.639904   |   41.883550  |   -87.624180  |
+|  2017   | Subscriber | 148 - 149 | State St      | Calumet Ave |   2.441   |    41.834734   |    -87.625813   |   41.834900  |   -87.617930  |
+|  2017   | Subscriber |  91 - 43  | Clinton St    | Michigan Av |   2.409   |    41.883380   |    -87.641170   |   41.883550  |   -87.624180  |
