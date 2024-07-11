@@ -1,6 +1,14 @@
 ## Data Cleaning
 
+<br />
+
+This section is for documentation of data cleaning process. After performing the queries below on Microsoft SQL Server, rows with duplicate values, NULL values or rows with few other conditions will be deleted and Bike Trip data will be ready for analysis.
+
+<br />
+
 ###  A.  Bike Trips Table
+
+<br />
 
 #### 1.  Deleted rows with conditions below;
 
@@ -8,41 +16,49 @@
 
 ``` sql
 DELETE  FROM  Bike_Trips
-WHERE   DATEDIFF(MINUTE, start_time, end_time) >= (24*60)
+WHERE         DATEDIFF(MINUTE, start_time, end_time) >= (24*60)
 ```
+
+<br />
 
 #####  1.2.  Trips with Start Time later than End Time;
 
 ``` sql
 DELETE  FROM  Bike_Trips
-WHERE   end_time < start_time
+WHERE         end_time < start_time
 ```
+
+<br />
 
 #####  1.3.  Subscribers with invalid age (too young or too old);
 
 ``` sql
 DELETE  FROM  Bike_Trips
-WHERE   user_age  IS  NOT NULL
-        AND 
-(
-        user_age <= 15
-        OR
-        user_age > 80
-)
+WHERE         user_age  IS  NOT NULL
+              AND 
+              (
+              user_age <= 15
+              OR
+              user_age >  80
+              )
 ```
+
+<br />
 
 #####  1.4.  Subscribers with NULL value for age or gender;
 
 ``` sql
 DELETE  FROM  Bike_Trips
-WHERE   usertype = 'Subscriber'
-        AND 
-(
-        user_age IS NULL
-        OR
-        gender IS NULL
-)
+WHERE         usertype = 'Subscriber'
+              AND 
+              (
+              user_age  IS  NULL
+              OR
+              gender    IS  NULL
+              )
 ```
+
+<br />
 
 #####  1.5.  Duplicate rows (trip_id);
 
@@ -51,7 +67,7 @@ WHERE   usertype = 'Subscriber'
 ``` sql
 SELECT
       trip_id,
-      COUNT(trip_id) as count
+      COUNT(trip_id) AS count
 FROM  Bike_Trips
 GROUP BY
       trip_id
@@ -87,6 +103,8 @@ WHERE
         rn > 1
 ```
 
+<br />
+
 ####  2.  Updated 7 rows with usertype labeled as ‘Dependent’ to ‘Customer’;
 
 ``` sql
@@ -95,36 +113,42 @@ SET     usertype = 'Customer'
 WHERE   usertype = 'Dependent'
 ```
 
+<br />
+
 ####  3.  Checked for NULL values (Customers with NULL age/gender is valid);
 
 ``` sql
 SELECT  *
 FROM    Bike_Trips
 WHERE
-        trip_id		IS NULL
-    OR  start_time		IS NULL
-    OR  end_time		IS NULL	
-    OR  bikeid			IS NULL	
-    OR  tripduration		IS NULL	
-    OR  from_station_id	IS NULL	
-    OR  from_station_name	IS NULL	
-    OR  to_station_id		IS NULL	
-    OR  to_station_name	IS NULL	
-    OR  trip_duration		IS NULL	
-    OR  trip_year		IS NULL	
-    OR  trip_month		IS NULL	
-    OR  trip_day		IS NULL	
-    OR  trip_hour		IS NULL	
-    OR  usertype		IS NULL
+        trip_id           IS NULL
+    OR  start_time        IS NULL
+    OR  end_time          IS NULL	
+    OR  bikeid            IS NULL	
+    OR  tripduration      IS NULL	
+    OR  from_station_id   IS NULL	
+    OR  from_station_name IS NULL	
+    OR  to_station_id     IS NULL	
+    OR  to_station_name   IS NULL	
+    OR  trip_duration     IS NULL	
+    OR  trip_year         IS NULL	
+    OR  trip_month        IS NULL	
+    OR  trip_day          IS NULL	
+    OR  trip_hour         IS NULL	
+    OR  usertype          IS NULL
     OR  (usertype = 'Subscriber' 
-        AND (
-        gender IS NULL
+        AND
+        (gender   IS NULL
         OR
-        user_age IS NULL)
+        user_age  IS NULL)
         )
 ```
 
+<br />
+
 ### B.  Bike Stations Table
+
+<br />
 
 ####  1.  Deleted rows with NULL values on latitude/longitude columns;
 
@@ -132,8 +156,10 @@ WHERE
 DELETE  FROM  Bike_Stations
 WHERE         latitude  IS  NULL
               OR
-              longitude	IS NULL
+              longitude	IS  NULL
 ```
+
+<br />
 
 #### 2. Deleted duplicate rows (id column)
 
@@ -178,7 +204,11 @@ WHERE
         rn > 1
 ```
 
+<br />
+
 ###  C.  Joining Bike Trips and Bike Station tables and final cleaning;
+
+<br />
 
 ####  1.  Query to join Bike_Trips and Bike_Stations tables and create new Bike_Data table with coordinates;
 
@@ -215,6 +245,8 @@ ON
         ) a
 ```
 
+<br />
+
 ####  2.  Deleted rows with NULL values for longitude/latitude columns;
 
 ``` sql
@@ -225,6 +257,8 @@ WHERE         start_id  IS  NULL
               OR
               end_id    IS  NULL
 ```
+
+<br />
 
 ####  3.  Dropped unnecessary columns for analysis;
 
