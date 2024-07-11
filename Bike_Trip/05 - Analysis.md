@@ -1,22 +1,22 @@
 ## Data Analysis
 
-##### [1.        Customer / Subscriber Ratio](  #1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
+##### [1.  Customer / Subscriber Ratio](  #1--query-to-create-list-of-yearly-trip-count-for-customerssubscribers)
 
-##### [2.        Popular Months](               #2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
+##### [2.  Popular Months](               #2--query-to-create-list-of-yearly-most-popular-months-for-customerssubscribers)
 
-##### [3.        Popular Days](                 #3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
+##### [3.  Popular Days](                 #3--query-to-create-list-of-yearly-most-popular-days-for-customerssubscribers)
 
-##### [4.        Time Periods](                 #4--query-to-create-list-of-yearly-most-popular-time-periods-for-customerssubscribers)
+##### [4.  Time Periods](                 #4--query-to-create-list-of-yearly-most-popular-time-periods-for-customerssubscribers)
 
-##### [5.        Trip Durations](               #5--query-to-create-list-of-yearly-most-popular-trip-durations-for-customerssubscribers)
+##### [5.  Trip Durations](               #5--query-to-create-list-of-yearly-most-popular-trip-durations-for-customerssubscribers)
 
-##### [6.        Age Groups and Gender](        #6--query-to-create-list-of-different-gender-and-age-groups-of-subscribers-for-each-year)
+##### [6.  Age Groups and Gender](        #6--query-to-create-list-of-different-gender-and-age-groups-of-subscribers-for-each-year)
 
-##### [7.        Most Used Start Stations](     #72--query-to-create-a-list-of-yearly-10-most-popular-start-stations-for-customerssubscribers)
+##### [7.  Most Used Start Stations](     #72--query-to-create-a-list-of-yearly-10-most-popular-start-stations-for-customerssubscribers)
 
-##### [8.        Most Used End Stations](       #82--query-to-create-a-list-of-yearly-10-most-popular-end-stations-for-customerssubscribers)
+##### [8.  Most Used End Stations](       #82--query-to-create-a-list-of-yearly-10-most-popular-end-stations-for-customerssubscribers)
 
-##### [9.        Popular Routes](               #92--query-to-create-a-list-of-yearly-10-most-popular-route-for-customerssubscribers)
+##### [9.  Popular Routes](               #92--query-to-create-a-list-of-yearly-10-most-popular-route-for-customerssubscribers)
 
 
 ####  1.  Query to create list of yearly trip count for customers/subscribers;
@@ -64,7 +64,7 @@ ORDER BY
 ```
 
 |  trip_year  |  usertype  |  trip_month  |  count    |
-|  ---        |  ---       |  ---         |  ---      |
+|  :---:      |  :---:     |  :---:       |  :---:    |
 |  2017       |  Customer  |  1           |    5.316  |
 |  2017       |  Customer  |  2           |   23.587  |
 |  2017       |  Customer  |  3           |   12.496  |
@@ -98,7 +98,7 @@ ORDER BY
 ```
 
 |	trip_year	|	usertype  	|	trip_day	|	count	  |
-|	---	      |	---        	|	---	      |	---	    |
+|	:---:     |	---        	|	---	      |	---:    |
 |	2017	    |	Customer  	|	Friday	  |	 96.453	|
 |	2017	    |	Customer  	|	Monday	  |	106.775	|
 |	2017	    |	Customer  	|	Saturday	|	224.613	|
@@ -151,7 +151,7 @@ ORDER BY
 ```
 
 |	trip_year	|	usertype	  |	time_period	  |	count	  |
-|	---      	|	---	        |	---	          |	---	    |
+|	:---:    	|	---	        |	---	          |	---:    |
 |	2017	    |	Customer	  |	00:00 - 06:00	|	 14.604	|
 |	2017	    |	Customer	  |	06:00 - 08:00	|	  9.134	|
 |	2017	    |	Customer	  |	08:00 - 10:00	|	 43.005	|
@@ -204,7 +204,7 @@ ORDER BY
 ```
 
 |	trip_year	|	usertype	  |	duration_group  |	count	    |
-|	---	      |	---	        |	---	            |	---	      |
+|	:---:     |	---	        |	---:            |	---:      |
 |	2017	    |	Customer	  |	<15 Minutes	    |	  211.872	|
 |	2017	    |	Customer	  |	1-2 Hours	      |	   53.858	|
 |	2017	    |	Customer	  |	15-30 Minutes	  |	  390.926	|
@@ -271,7 +271,7 @@ ORDER BY
 ```
 
 |	trip_year	|	age_group	|	gender	|	count	  |
-|	---	      |	---	      |	---	    |	---	    |
+|	:---:     |	:---:     |	---	    |	---:    |
 |	2017	    |	15-20	    |	Female	|  10.069	|
 |	2017	    |	15-20	    |	Male	  |  23.312	|
 |	2017	    |	21-25	    |	Female	|	122.703	|
@@ -342,7 +342,7 @@ WHERE
 ```
 
 |	trip_year	|	usertype	  |	start_id	|	start_station                      	|	trip_count  |	start_latitude	|	start_longitude	|
-|	---	      |	---	        |	---	      |	---	                                |	---	        |	---            	|	---	            |
+|	:---:     |	---	        |	---:      |	---	                                |	---:        |	:---:          	|	:---:           |
 |	2017	    |	Customer	  |  35      	|	Streeter Dr & Grand Ave	            |	77.368     	|	41.892278	      |	-87.612043	    |
 |	2017    	|	Customer	  |  76      	|	Lake Shore Dr & Monroe St	          |	42.151	    |	41.880958	      |	-87.616743    	|
 |	2017	    |	Customer	  |	268      	|	Lake Shore Dr & North Blvd	        |	28.096	    |	41.911722      	|	-87.626804	    |
@@ -417,7 +417,7 @@ WHERE
 ```
 
 |	trip_year	|	usertype	|	end_id	|	end_station	|	trip_count	|	end_latitude	|	end_longitude	|
-|	---	|	---	|	---	|	---	|	---	|	---	|	---	|
+|	:---:	|	---	|	---:	|	---	|	---:	|	:---:	|	:---:	|
 |	2017	|	Customer	|	35	|	Streeter Dr & Grand Ave	|	85.673	|	41.892.278	|	-87.612.043	|
 |	2017	|	Customer	|	76	|	Lake Shore Dr & Monroe St	|	38.933	|	41.880.958	|	-87.616.743	|
 |	2017	|	Customer	|	268	|	Lake Shore Dr & North Blvd	|	30.503	|	41.911.722	|	-87.626.804	|
@@ -502,7 +502,7 @@ WHERE
 ```
 
 |	trip_year	|	usertype	|	trip_route	|	start_station	|	end_station	|	trip_count	|	start_latitude	|	start_longitude	|	end_latitude	|	end_longitude	|
-|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|	---	|
+|	:---:	|	---	|	---:	|	---	|	---	|	---:	|	:---:	|	:---:	|	:---:	|	:---:	|
 |	2017	|	Customer	|	76 - 35	|	Lake Shore Dr & Monroe St	|	Streeter Dr & Grand Ave	|	10.971	|	41.880.958	|	-87.616.743	|	41.892.278	|	-87.612.043	|
 |	2017	|	Customer	|	35 - 35	|	Streeter Dr & Grand Ave	|	Streeter Dr & Grand Ave	|	9.128	|	41.892.278	|	-87.612.043	|	41.892.278	|	-87.612.043	|
 |	2017	|	Customer	|	35 - 268	|	Streeter Dr & Grand Ave	|	Lake Shore Dr & North Blvd	|	6.628	|	41.892.278	|	-87.612.043	|	41.911.722	|	-87.626.804	|
