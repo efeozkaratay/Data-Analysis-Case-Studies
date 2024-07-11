@@ -97,22 +97,22 @@ ORDER BY
         trip_day
 ```
 
-|	trip_year	|	usertype  	|	trip_day	|	count	  |
-|	:---:     |	---        	|	---	      |	---:    |
-|	2017	    |	Customer  	|	Friday	  |	 96.453	|
-|	2017	    |	Customer  	|	Monday	  |	106.775	|
-|	2017	    |	Customer  	|	Saturday	|	224.613	|
-|	2017	    |	Customer	  |	Sunday	  |	201.476	|
-|	2017    	|	Customer	  |	Thursday	|	 67.910 |
-|	2017    	|	Customer  	|	Tuesday	  |	 77.836 |
-|	2017	    |	Customer	  |	Wednesday	|	 61.801 |
-|	2017    	|	Subscriber	|	Friday	  |	457.670	|
-|	2017    	|	Subscriber	|	Monday	  |	471.600	|
-|	2017    	|	Subscriber	|	Saturday	|	306.103	|
-|	2017	    |	Subscriber	|	Sunday  	|	290.821	|
-|	2017	    |	Subscriber	|	Thursday	|	481.591	|
-|	2017	    |	Subscriber	|	Tuesday	  |	500.423	|
-|	2017    	|	Subscriber	|	Wednesday	|	480.525	|
+| trip_year |  usertype  | trip_day  |  count  |
+|   :---:   |     ---    |    ---    |   ---:  |
+|   2017    |  Customer  |  Friday   |  96.453 |
+|   2017    |  Customer  |  Monday   | 106.775 |
+|   2017    |  Customer  |  Saturday | 224.613 |
+|   2017    |  Customer  |  Sunday   | 201.476 |
+|   2017    |  Customer  |  Thursday |  67.910 |
+|   2017    |  Customer  |  Tuesday  |  77.836 |
+|   2017    |  Customer  | Wednesday |  61.801 |
+|   2017    | Subscriber |  Friday   | 457.670 |
+|   2017    | Subscriber |  Monday   | 471.600 |
+|   2017    | Subscriber |  Saturday | 306.103 |
+|   2017    | Subscriber |  Sunday   | 290.821 |
+|   2017    | Subscriber |  Thursday | 481.591 |
+|   2017    | Subscriber |  Tuesday  | 500.423 |
+|   2017    | Subscriber | Wednesday | 480.525 |
 
 ####  4.  Query to create list of yearly most popular time periods for customers/subscribers;
 
