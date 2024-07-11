@@ -152,3 +152,5 @@ ALTER COLUMN   latitude   DECIMAL(9,6)
 ALTER TABLE    Bike_Stations
 ALTER COLUMN   longitude  DECIMAL(9,6)
 ```
+
+###### [Back to top](#data-preparation)
