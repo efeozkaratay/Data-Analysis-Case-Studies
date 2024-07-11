@@ -18,6 +18,7 @@
 
 ##### [9.  Popular Routes](               #92--query-to-create-a-list-of-yearly-10-most-popular-route-for-customerssubscribers)
 
+<br />
 
 ####  1.  Query to create list of yearly trip count for customers/subscribers;
 
@@ -45,6 +46,8 @@ ORDER BY
 |   2019    | Subscriber | 2.912.917 |
 
 ###### [Back to top](#data-analysis)
+
+<br />
 
 ####  2.  Query to create list of yearly most popular months for customers/subscribers;
 
@@ -79,6 +82,8 @@ ORDER BY
 |   2017    | Customer |    10      |  58.809 |
 |   2017    | Customer |    11      |  12.699 |
 |   2017    | Customer |    12      |   6.575 |
+
+<br />
 
 ####  3.  Query to create list of yearly most popular days for customers/subscribers;
 
@@ -115,6 +120,8 @@ ORDER BY
 |   2017    | Subscriber |  Thursday | 481.591 |
 |   2017    | Subscriber |  Tuesday  | 500.423 |
 |   2017    | Subscriber | Wednesday | 480.525 |
+
+<br />
 
 ####  4.  Query to create list of yearly most popular time periods for customers/subscribers;
 
@@ -169,6 +176,8 @@ ORDER BY
 |   2017    | Subscriber | 17:00 - 20:00 | 798.473 |
 |   2017    | Subscriber | 20:00 - 00:00 | 266.554 |
 
+<br />
+
 ####  5.  Query to create list of yearly most popular trip durations for customers/subscribers;
 
 ``` sql
@@ -221,6 +230,8 @@ ORDER BY
 |   2017    | Subscriber |  30-60 Minutes |    51.259 |
 |   2017    | Subscriber |    4-6 Hours   |       248 |
 |   2017    | Subscriber |     6+ Hours   |       785 |
+
+<br />
 
 ####  6.  Query to create list of different gender and age groups of subscribers for each year;
 
@@ -291,6 +302,8 @@ ORDER BY
 |   2017    |   51-55   | Female |  37.857 |
 |   2017    |   51-55   |  Male  | 124.371 |
 
+<br />
+
 ####  7.  Most popular start stations by year and user type;
 
 #####  7.1.  Query to create a new table with trip counts of each start station by year and user type;
@@ -319,6 +332,8 @@ FROM
             start_longitude
         )  a
 ```
+
+<br />
 
 #####  7.2.  Query to create a list of yearly 10 most popular start stations for customers/subscribers;
 
@@ -366,6 +381,8 @@ WHERE
 |   2017    | Subscriber |    100   | Orleans St & Merchandise Mart Plaza |   27.357   |    41.888243   |    -87.636390   |
 |   2017    | Subscriber |     43   | Michigan Ave & Washington St        |   25.931   |    41.883550   |    -87.624180   |
 
+<br />
+
 ####  8.  Most popular end stations by year and user type;
 
 #####  8.1.  Query to create a new table with trip counts of each end station by year and user type;
@@ -394,6 +411,8 @@ FROM
               end_longitude
         )  a
 ```
+
+<br />
 
 #####  8.2.  Query to create a list of yearly 10 most popular end stations for customers/subscribers;
 
@@ -441,6 +460,7 @@ WHERE
 |   2017    | Subscriber |   100  | Orleans St & Merchandise Mart Plaza |   24.812   |   41.888243  |   -87.636390  |
 |   2017    | Subscriber |   110  | State St & Erie St                  |   23.163   |   41.893992  |   -87.629318  |
 
+<br />
 
 ####  9.  Most popular trip routes by year and user type;
 
@@ -476,6 +496,8 @@ FROM
               end_longitude
         ) a
 ```
+
+<br />
 
 #####  9.2.  Query to create a list of yearly 10 most popular route for customers/subscribers;
 
