@@ -501,9 +501,9 @@ WHERE
         T.row_count <= 10
 ```
 
-|	trip_year	|	usertype	|	trip_route	|	start_station	|	end_station	|	trip_count	|	start_latitude	|	start_longitude	|	end_latitude	|	end_longitude	|
-|	:---:	|	---	|	---:	|	---	|	---	|	---:	|	:---:	|	:---:	|	:---:	|	:---:	|
-|	2017	|	Customer	|	76 - 35	|	Lake Shore Dr & Monroe St	|	Streeter Dr & Grand Ave	|	10.971	|	41.880.958	|	-87.616.743	|	41.892.278	|	-87.612.043	|
+|trip_year| usertype |trip_route| start_station | end_station |trip_count|start_latitude|start_longitude|end_latitude|end_longitude          |
+|  :---:  |   ---    |   ---:   |      ---      |     ---     |   ---:   |    :---:     |     :---:     |   :---:    |    :---:    |
+|  2017   | Customer |  76 - 35 | Lake Shore Dr | Streeter Dr |  10.971  |   41.880958  |   -87.616743  |  41.892278 | -87.612.043 |
 |	2017	|	Customer	|	35 - 35	|	Streeter Dr & Grand Ave	|	Streeter Dr & Grand Ave	|	9.128	|	41.892.278	|	-87.612.043	|	41.892.278	|	-87.612.043	|
 |	2017	|	Customer	|	35 - 268	|	Streeter Dr & Grand Ave	|	Lake Shore Dr & North Blvd	|	6.628	|	41.892.278	|	-87.612.043	|	41.911.722	|	-87.626.804	|
 |	2017	|	Customer	|	35 - 76	|	Streeter Dr & Grand Ave	|	Lake Shore Dr & Monroe St	|	6.311	|	41.892.278	|	-87.612.043	|	41.880.958	|	-87.616.743	|
