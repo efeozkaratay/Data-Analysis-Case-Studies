@@ -44,6 +44,8 @@ ORDER BY
 |   2019    | Customer   |   879.188 |
 |   2019    | Subscriber | 2.912.917 |
 
+###### [Back to top](#data-analysis)
+
 ####  2.  Query to create list of yearly most popular months for customers/subscribers;
 
 ``` sql
