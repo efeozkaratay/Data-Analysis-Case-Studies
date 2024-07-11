@@ -341,28 +341,28 @@ WHERE
         T.row_count <= 10
 ```
 
-|	trip_year	|	usertype	  |	start_id	|	start_station                      	|	trip_count  |	start_latitude	|	start_longitude	|
-|	:---:     |	---	        |	---:      |	---	                                |	---:        |	:---:          	|	:---:           |
-|	2017	    |	Customer	  |  35      	|	Streeter Dr & Grand Ave	            |	77.368     	|	41.892278	      |	-87.612043	    |
-|	2017    	|	Customer	  |  76      	|	Lake Shore Dr & Monroe St	          |	42.151	    |	41.880958	      |	-87.616743    	|
-|	2017	    |	Customer	  |	268      	|	Lake Shore Dr & North Blvd	        |	28.096	    |	41.911722      	|	-87.626804	    |
-|	2017	    |	Customer	  |	177	      |	Theater on the Lake                	|	26.399	    |	41.926277	      |	-87.630834    	|
-|	2017	    |	Customer	  |   3	      |	Shedd Aquarium                    	|	25.242	    |	41.867226      	|	-87.615355	    |
-|	2017    	|	Customer	  |  90	      |	Millennium Park	                    |	23.457	    |	41.881032      	|	-87.624084	    |
-|	2017	    |	Customer	  |  85	      |	Michigan Ave & Oak St              	|	23.180	    |	41.900960      	|	-87.623777	    |
-|	2017	    |	Customer	  |	341	      |	Adler Planetarium	                  |	17.929	    |	41.866095	      |	-87.607267	    |
-|	2017    	|	Customer	  |   6	      |	Dusable Harbor                    	|	17.639    	|	41.885042      	|	-87.612795	    |
-|	2017	    |	Customer	  |	  4	      |	Burnham Harbor	                    |	13.413    	|	41.856268	      |	-87.613348	    |
-|	2017    	|	Subscriber	|	192	      |	Canal St & Adams St	                |	48.855	    |	41.879255      	|	-87.639904	    |
-|	2017    	|	Subscriber	|  91	      |	Clinton St & Washington Blvd	      |	47.977	    |	41.883380	      |	-87.641170	    |
-|	2017	    |	Subscriber	|  77	      |	Clinton St & Madison St	            |	42.386	    |	41.882242	      |	-87.641066	    |
-|	2017	    |	Subscriber	|	133	      |	Kingsbury St & Kinzie St	          |	32.914	    |	41.889177      	|	-87.638506	    |
-|	2017	    |	Subscriber	|	287	      |	Franklin St & Arcade Pl	            |	32.237    	|	41.880317      	|	-87.635185	    |
-|	2017	    |	Subscriber	|	174	      |	Canal St & Madison St	              |	31.885	    |	41.882091	      |	-87.639833	    |
-|	2017	    |	Subscriber	|	195      	|	Columbus Dr & Randolph St          	|	29.039	    |	41.884728	      |	-87.619521	    |
-|	2017	    |	Subscriber	|  81	      |	Daley Center Plaza	                |	28.579	    |	41.884451      	|	-87.629892	    |
-|	2017	    |	Subscriber	|	100	      |	Orleans St & Merchandise Mart Plaza	|	27.357	    |	41.888243	      |	-87.636390	    |
-|	2017	    |	Subscriber	|  43      	|	Michigan Ave & Washington St	      |	25.931	    |	41.883550	      |	-87.624180	    |
+| trip_year |  usertype  | start_id |           start_station             | trip_count | start_latitude | start_longitude |
+|   :---:   |    ---     |   ---:   |                ---                  |    ---:    |     :---:      |      :---:      |
+|   2017    |  Customer  |     35   | Streeter Dr & Grand Ave             |   77.368   |    41.892278   |    -87.612043   |
+|   2017    |  Customer  |     76   | Lake Shore Dr & Monroe St           |   42.151   |    41.880958   |    -87.616743   |
+|   2017    |  Customer  |    268   | Lake Shore Dr & North Blvd          |   28.096   |    41.911722   |    -87.626804   |
+|   2017    |  Customer  |    177   | Theater on the Lake                 |   26.399   |    41.926277   |    -87.630834   |
+|   2017    |  Customer  |      3   | Shedd Aquarium                      |   25.242   |    41.867226   |    -87.615355   |
+|   2017    |  Customer  |     90   | Millennium Park                     |   23.457   |    41.881032   |    -87.624084   |
+|   2017    |  Customer  |     85   | Michigan Ave & Oak St               |   23.180   |    41.900960   |    -87.623777   |
+|   2017    |  Customer  |    341   | Adler Planetarium                   |   17.929   |    41.866095   |    -87.607267   |
+|   2017    |  Customer  |      6   | Dusable Harbor                      |   17.639   |    41.885042   |    -87.612795   |
+|   2017    |  Customer  |      4   | Burnham Harbor                      |   13.413   |    41.856268   |    -87.613348   |
+|   2017    | Subscriber |    192   | Canal St & Adams St                 |   48.855   |    41.879255   |    -87.639904   |
+|   2017    | Subscriber |     91   | Clinton St & Washington Blvd        |   47.977   |    41.883380   |    -87.641170   |
+|   2017    | Subscriber |     77   | Clinton St & Madison St             |   42.386   |    41.882242   |    -87.641066   |
+|   2017    | Subscriber |    133   | Kingsbury St & Kinzie St            |   32.914   |    41.889177   |    -87.638506   |
+|   2017    | Subscriber |    287   | Franklin St & Arcade Pl             |   32.237   |    41.880317   |    -87.635185   |
+|   2017    | Subscriber |    174   | Canal St & Madison St               |   31.885   |    41.882091   |    -87.639833   |
+|   2017    | Subscriber |    195   | Columbus Dr & Randolph St           |   29.039   |    41.884728   |    -87.619521   |
+|   2017    | Subscriber |     81   | Daley Center Plaza                  |   28.579   |    41.884451   |    -87.629892   |
+|   2017    | Subscriber |    100   | Orleans St & Merchandise Mart Plaza |   27.357   |    41.888243   |    -87.636390   |
+|   2017    | Subscriber |     43   | Michigan Ave & Washington St        |   25.931   |    41.883550   |    -87.624180   |
 
 ####  8.  Most popular end stations by year and user type;
 
