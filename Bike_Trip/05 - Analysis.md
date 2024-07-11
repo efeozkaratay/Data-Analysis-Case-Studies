@@ -64,7 +64,7 @@ ORDER BY
 ```
 
 |  trip_year  |  usertype  |  trip_month  |  count    |
-|  :---:      |  :---:     |  :---:       |  :---:    |
+|  :---:      |  :---:     |  :---:       |   ---:    |
 |  2017       |  Customer  |  1           |    5.316  |
 |  2017       |  Customer  |  2           |   23.587  |
 |  2017       |  Customer  |  3           |   12.496  |
