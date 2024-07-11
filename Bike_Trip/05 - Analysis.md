@@ -35,14 +35,14 @@ ORDER BY
         usertype
 ```
 
-| trip_year | usertype   |     count |
-| :---:     | ---        |      ---: |
-| 2017      | Customer   |   836.864 |
-| 2017      | Subscriber | 2.988.733 |
-| 2018      | Customer   |   676.162 |
-| 2018      | Subscriber | 2.914.506 |
-| 2019      | Customer   |   879.188 |
-| 2019      | Subscriber | 2.912.917 |
+| trip_year |  usertype  |   count   |
+|   :---:   |    ---     |    ---:   |
+|   2017    | Customer   |   836.864 |
+|   2017    | Subscriber | 2.988.733 |
+|   2018    | Customer   |   676.162 |
+|   2018    | Subscriber | 2.914.506 |
+|   2019    | Customer   |   879.188 |
+|   2019    | Subscriber | 2.912.917 |
 
 ####  2.  Query to create list of yearly most popular months for customers/subscribers;
 
@@ -63,20 +63,20 @@ ORDER BY
         trip_month
 ```
 
-|  trip_year  |  usertype  |  trip_month  |  count    |
-|  :---:      |  :---:     |  :---:       |   ---:    |
-|  2017       |  Customer  |  1           |    5.316  |
-|  2017       |  Customer  |  2           |   23.587  |
-|  2017       |  Customer  |  3           |   12.496  |
-|  2017       |  Customer  |  4           |   61.247  |
-|  2017       |  Customer  |  5           |   82.319  |
-|  2017       |  Customer  |  6           |  132.190  |
-|  2017       |  Customer  |  7           |  179.379  |
-|  2017       |  Customer  |  8           |  146.056  |
-|  2017       |  Customer  |  9           |  116.191  |
-|  2017       |  Customer  |  10          |   58.809  |
-|  2017       |  Customer  |  11          |   12.699  |
-|  2017       |  Customer  |  12          |    6.575  |
+| trip_year | usertype | trip_month |  count  |
+|   :---:   |  :---:   |   :---:    |   ---:  |
+|   2017    | Customer |     1      |   5.316 |
+|   2017    | Customer |     2      |  23.587 |
+|   2017    | Customer |     3      |  12.496 |
+|   2017    | Customer |     4      |  61.247 |
+|   2017    | Customer |     5      |  82.319 |
+|   2017    | Customer |     6      | 132.190 |
+|   2017    | Customer |     7      | 179.379 |
+|   2017    | Customer |     8      | 146.056 |
+|   2017    | Customer |     9      | 116.191 |
+|   2017    | Customer |    10      |  58.809 |
+|   2017    | Customer |    11      |  12.699 |
+|   2017    | Customer |    12      |   6.575 |
 
 ####  3.  Query to create list of yearly most popular days for customers/subscribers;
 
