@@ -36,7 +36,7 @@ ORDER BY
 ```
 
 |  trip_year  |  usertype    |  count      |
-|  ---	      |  ---         |  ---        |
+|  :---:	    |  ---         |  ---:       |
 |	2017	      |  Customer    |    836.864  |
 |	2017	      |  Subscriber  |  2.988.733  |
 |	2018	      |  Customer    |    676.162  |
