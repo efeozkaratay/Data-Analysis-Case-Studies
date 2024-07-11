@@ -1,4 +1,4 @@
-## Bike Trip Case Study Dataset
+## Datasets
 
 ###  A.  Bike Trips Dataset
 
@@ -63,4 +63,4 @@ Data structure of bike stations table;
 |  latitude   |  decimal(9, 6)  |
 |  longitude  |  decimal(9, 6)  |
 
-###### [Back to top](#bike-trip-case-study-dataset)
+###### [Back to top](#datasets)
