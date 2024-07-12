@@ -33,7 +33,7 @@ Data structure of bike trips tables;
 
 <br />
 
-|  Column             |  Data Type  |
+|  Column             |  Data Type     |
 |  ---                |  ---           |
 |  trip_id            |  int           |
 |  start_time         |  datetime2(7)  |
