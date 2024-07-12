@@ -21,12 +21,12 @@ all visualisations for analysis are created on **Tableau Public Dekstop**.
 
 ### Index
 
-- [Dataset](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Google_Data_Analytics_Bike_Share/02%20-%20Dataset.md#dataset)
-- [Preparation](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Google_Data_Analytics_Bike_Share/03%20-%20Preparation.md#data-preparation)
-- [Cleaning](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Google_Data_Analytics_Bike_Share/04%20-%20Cleaning.md#data-cleaning)
-- [Analysis](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Google_Data_Analytics_Bike_Share/05%20-%20Analysis.md#data-analysis)
-- [Visualisation](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Google_Data_Analytics_Bike_Share/06%20-%20Visualisation)
-- [Summary](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Google_Data_Analytics_Bike_Share/07%20-%20Summary)
+- [Dataset](https://github.com/efeozkaratay/Data-Analysis-Case-Studies/blob/main/Google-Data-Analytics-Bike-Share/02%20-%20Dataset.md#dataset)
+- [Preparation](https://github.com/efeozkaratay/Data-Analysis-Case-Studies/blob/main/Google-Data-Analytics-Bike-Share/03%20-%20Preparation.md#data-preparation)
+- [Cleaning](https://github.com/efeozkaratay/Data-Analysis-Case-Studies/blob/main/Google-Data-Analytics-Bike-Share/04%20-%20Cleaning.md#data-cleaning)
+- [Analysis](https://github.com/efeozkaratay/Data-Analysis-Case-Studies/blob/main/Google-Data-Analytics-Bike-Share/05%20-%20Analysis.md#data-analysis)
+- [Visualisation](https://github.com/efeozkaratay/Data-Analysis-Case-Studies/blob/main/Google-Data-Analytics-Bike-Share/06%20-%20Visualisation)
+- [Summary](https://github.com/efeozkaratay/Data-Analysis-Case-Studies/blob/main/Google-Data-Analytics-Bike-Share/07%20-%20Summary)
 
 <br />
 
