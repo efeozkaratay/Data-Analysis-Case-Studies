@@ -1,3 +1,6 @@
+![Case_Study_Banner_01](https://github.com/user-attachments/assets/21eda98c-8d3f-47af-a3c7-11839b938036)
+
+
 ## Introduction
 
 <br />
