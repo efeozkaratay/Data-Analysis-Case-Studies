@@ -1,5 +1,5 @@
 ## Data Cleaning
-a
+
 <br />
 
 This section is for documentation of data cleaning process. After performing the queries below on Microsoft SQL Server, rows with duplicate values, NULL values or rows with few other conditions will be deleted and Bike Trip data will be ready for analysis.
