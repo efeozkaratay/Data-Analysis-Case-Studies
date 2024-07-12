@@ -1,5 +1,7 @@
 ## Introduction
 
+<br />
+
 **Bike Share Case Study** is a Capstone Project for [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics).
 
 Finance analysts have concluded that subscribers are much more profitable than casual customers and Marketing department believes the company’s future success depends on maximizing the number of subscribers.
@@ -12,15 +14,17 @@ Bike Trip data of 2017, 2018 and 2019 for this analysis is provided by [Divvy](h
 Data preparation and cleaning process are performed on **Microsoft SQL Server** and 
 all visualisations for analysis are created on **Tableau Public Dekstop**. 
 
+<br />
 
-Index
+### Index
 
-Dataset
-Preparation
-Cleaning
-Analysis
-Visualisation
-Summary
+- [Dataset](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Bike_Trip/02%20-%20Dataset.md)
+- [Preparation](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Bike_Trip/03%20-%20Preparation.md)
+- [Cleaning](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Bike_Trip/04%20-%20Cleaning.md)
+- [Analysis](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Bike_Trip/05%20-%20Analysis.md)
+- [Visualisation](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Bike_Trip/06%20-%20Visualisation)
+- [Summary](https://github.com/efeozkaratay/Data_Analysis_Case_Studies/blob/main/Bike_Trip/07%20-%20Summary)
 
+<br />
 
-Back to top
+###### [Back to top](#introduction)
