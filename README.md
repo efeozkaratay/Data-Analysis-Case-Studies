@@ -1,6 +1,6 @@
 ### Data Analysis Case Studies
 
-This repository is created to present case studies with use of data analysis tools such as SQL, R, Python, Excel, Tablea and Power BI.
+This repository is created to present case studies with use of data analysis tools such as SQL, R, Python, Excel, Tableau and Power BI.
 
 #### Case Studies
 
