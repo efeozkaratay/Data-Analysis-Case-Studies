@@ -5,7 +5,7 @@
 
 <br />
 
-**Bike Share Case Study** is a Capstone Project for [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics).
+**Bike Share Case Study** is a Capstone Project for [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) program on Coursera.
 
 Finance analysts have concluded that subscribers are much more profitable than casual customers and Marketing department believes the company’s future success depends on maximizing the number of subscribers.
 
