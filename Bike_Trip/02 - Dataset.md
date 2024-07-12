@@ -1,4 +1,12 @@
-## Datasets
+## Dataset
+
+<br />
+
+Bike Trip data for this analysis is provided by [Divvy](https://divvybikes.com/about) and has been made available by Lyft Bikes and Scooters, LLC under this [license](https://divvybikes.com/data-license-agreement). 
+
+Combined Bike Trip dataset includes data for 2017, 2018, 2019 and contain more than 11 millions rows. Dataset is stored in Microsoft SQL Server and will be used to analyze and identify trends of bike users for this case study.
+
+<br />
 
 ###  A.  Bike Trips Dataset
 
@@ -63,4 +71,4 @@ Data structure of bike stations table;
 |  latitude   |  decimal(9, 6)  |
 |  longitude  |  decimal(9, 6)  |
 
-###### [Back to top](#datasets)
+###### [Back to top](#dataset)
