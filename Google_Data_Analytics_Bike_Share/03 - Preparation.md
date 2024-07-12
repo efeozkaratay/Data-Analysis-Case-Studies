@@ -1,5 +1,5 @@
 ## Data Preparation
-a
+
 <br />
 
 This section is for documentation of data preparation process. By performing listed queries below, dataset is prepared for cleaning and analysis. Data structures for all related tables are adjusted and these tables are combined together. Finally, necessary columns for analysis are added to tables. All the queries are performed on Microsoft SQL Server.
