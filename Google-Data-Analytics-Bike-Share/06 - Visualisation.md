@@ -8,21 +8,21 @@ Results of all queries in [Analysis](https://github.com/efeozkaratay/Data-Analys
 
 <br />
 
-##### [1.  Introduction](      #xxx)
+##### [1.  Introduction](      #1-introduction)
 
-##### [2.  User Ratio](        #xxx)
+##### [2.  User Ratio](        #2-user-ratio)
 
-##### [3.  Month & Day](       #xxx)
+##### [3.  Month & Day](       #3-month--day)
 
-##### [4.  Hours](             #xxx)
+##### [4.  Hours](             #4-hours)
 
-##### [5.  Trip Duration](     #xxx)
+##### [5.  Trip Duration](     #5-trip-duration)
 
-##### [6.  Age & Gender](      #xxx)
+##### [6.  Age & Gender](      #6-age--gender)
 
-##### [7.  Stations](          #xxx)
+##### [7.  Stations](          #7-stations)
 
-##### [8.  Summary](           #xxx)
+##### [8.  Summary](           #8-summary)
 
 <br />
 
@@ -93,4 +93,4 @@ Image
 
 <br />
 
-###### [Back to top](#---)
+###### [Back to top](#1--introduction)
