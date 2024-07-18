@@ -32,11 +32,7 @@ All visualisations in this section are created on Tableau Desktop.
 
 ####  1. Introduction
 
-<br />
-
-Image
-
-<br />
+![1-Intro](https://github.com/user-attachments/assets/c24fc984-7d82-4147-8e5c-0bd443f8c310)
 
 [Back to top](#1--introduction)
 
@@ -44,22 +40,15 @@ Image
 
 ####  2. User Ratio
 
-<br />
-
-Image
-
-<br />
+![2-User-Ratio](https://github.com/user-attachments/assets/d618dabb-70f7-4886-8617-296d5f7eebef)
 
 [Back to top](#1--introduction)
 
 <br />
 
 ####  3. Month & Day
-<br />
 
-Image
-
-<br />
+![3-Month-Day](https://github.com/user-attachments/assets/7a8cd254-3697-469c-9889-87ecf5c19a5a)
 
 [Back to top](#1--introduction)
 
@@ -67,11 +56,7 @@ Image
 
 ####  4. Hours
 
-<br />
-
-Image
-
-<br />
+![4-Time-Periods](https://github.com/user-attachments/assets/d239a59d-e09b-472e-a46f-a86bf14cf17a)
 
 [Back to top](#1--introduction)
 
@@ -79,11 +64,7 @@ Image
 
 ####  5. Trip Duration
 
-<br />
-
-Image
-
-<br />
+![5-Trip-Duration](https://github.com/user-attachments/assets/0100b89d-bc1e-4ad2-98c9-27576e323b34)
 
 [Back to top](#1--introduction)
 
@@ -91,11 +72,7 @@ Image
 
 ####  6. Age & Gender
 
-<br />
-
-Image
-
-<br />
+![6-Age-Gender](https://github.com/user-attachments/assets/f54ca532-a4bf-4593-b359-74f0c7075b05)
 
 [Back to top](#1--introduction)
 
@@ -103,11 +80,7 @@ Image
 
 ####  7. Stations
 
-<br />
-
-Image
-
-<br />
+![7-Stations](https://github.com/user-attachments/assets/7338b11a-e7bf-437a-98e5-cb1d94d1b26e)
 
 [Back to top](#1--introduction)
 
@@ -115,10 +88,6 @@ Image
 
 ####  8. Summary
 
-<br />
-
-Image
-
-<br />
+![8-Summary](https://github.com/user-attachments/assets/52488728-a090-4404-bf98-abb751635f59)
 
 [Back to top](#1--introduction)
