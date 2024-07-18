@@ -54,7 +54,7 @@ ORDER BY
 |   2019    | Customer   |   879.188 |
 |   2019    | Subscriber | 2.912.917 |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -92,7 +92,7 @@ ORDER BY
 |   2017    | Customer |    11      |  12.699 |
 |   2017    | Customer |    12      |   6.575 |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -132,7 +132,7 @@ ORDER BY
 |   2017    | Subscriber |  Tuesday  | 500.423 |
 |   2017    | Subscriber | Wednesday | 480.525 |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -189,7 +189,7 @@ ORDER BY
 |   2017    | Subscriber | 17:00 - 20:00 | 798.473 |
 |   2017    | Subscriber | 20:00 - 00:00 | 266.554 |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -246,7 +246,7 @@ ORDER BY
 |   2017    | Subscriber |    4-6 Hours   |       248 |
 |   2017    | Subscriber |     6+ Hours   |       785 |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -319,7 +319,7 @@ ORDER BY
 |   2017    |   51-55   | Female |  37.857 |
 |   2017    |   51-55   |  Male  | 124.371 |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -400,7 +400,7 @@ WHERE
 |   2017    | Subscriber |    100   | Orleans St & Merchandise Mart Plaza |   27.357   |    41.888243   |    -87.636390   |
 |   2017    | Subscriber |     43   | Michigan Ave & Washington St        |   25.931   |    41.883550   |    -87.624180   |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -481,7 +481,7 @@ WHERE
 |   2017    | Subscriber |   100  | Orleans St & Merchandise Mart Plaza |   24.812   |   41.888243  |   -87.636390  |
 |   2017    | Subscriber |   110  | State St & Erie St                  |   23.163   |   41.893992  |   -87.629318  |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
 
 <br />
 
@@ -571,4 +571,4 @@ WHERE
 |  2017   | Subscriber | 148 - 149 | State St     | Calumet A   |   2.441   |    41.834734   |    -87.625813   |   41.834900  |   -87.617930  |
 |  2017   | Subscriber |  91 - 43  | Clinton St   | Michigan A  |   2.409   |    41.883380   |    -87.641170   |   41.883550  |   -87.624180  |
 
-###### [Back to top](#data-analysis)
+[Back to top](#data-analysis)
