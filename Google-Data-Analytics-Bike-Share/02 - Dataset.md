@@ -71,4 +71,4 @@ Data structure of bike stations table;
 |  latitude   |  decimal(9, 6)  |
 |  longitude  |  decimal(9, 6)  |
 
-###### [Back to top](#dataset)
+[Back to top](#dataset)
