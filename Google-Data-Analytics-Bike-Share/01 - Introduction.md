@@ -30,4 +30,4 @@ all visualisations for analysis are created on **Tableau Public Dekstop**.
 
 <br />
 
-###### [Back to top](#introduction)
+[Back to top](#introduction)
