@@ -275,4 +275,4 @@ DROP   COLUMN   start_time,
                 birthyear
 ```
 
-###### [Back to top](#data-cleaning)
+[Back to top](#data-cleaning)
