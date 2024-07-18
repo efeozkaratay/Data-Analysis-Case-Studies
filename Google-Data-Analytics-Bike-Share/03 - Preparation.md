@@ -190,4 +190,4 @@ ALTER TABLE    Bike_Stations
 ALTER COLUMN   longitude  DECIMAL(9,6)
 ```
 
-###### [Back to top](#data-preparation)
+[Back to top](#data-preparation)
