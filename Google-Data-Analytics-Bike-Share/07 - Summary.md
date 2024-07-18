@@ -7,7 +7,7 @@
 Business Task for this analysis is answering ***"How do subscribers and customers use bikes differently?"***
 by analyzing the historical bike trip data to **identify trends** and **design new marketing strategies** aimed at converting customers into subscribers.
 
-Dataset used for this analysis include bike-share historical data for years 2017, 2018 and 2019.
+Dataset used for this analysis include historical bike-share data for years 2017, 2018 and 2019.
 
 Analysis process and visualisations of results could be found in related sections.
 
@@ -45,6 +45,7 @@ Analysis process and visualisations of results could be found in related section
 
 - Loyalty program where you can earn points as you ride to gain discount on subscription. 
 
-<br />
+![Bike-Share_Logo](https://github.com/user-attachments/assets/9ba69ea0-5452-4aaf-92a8-80a419348cce)
+
 
 [Back to top](#summary)
