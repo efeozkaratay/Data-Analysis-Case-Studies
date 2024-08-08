@@ -36,30 +36,32 @@ ORDER BY   TotalSales DESC
 ``` sql
 
 (
-SELECT      DISTINCT(store.StoreDescription)
-FROM        inventory_position
-LEFT JOIN   store
-ON          inventory_position.StoreCode = store.StoreCode 
-WHERE       NOT EXISTS ( 
-                       SELECT  * 
-                       FROM    inventory_position
-                       WHERE   inventory_position.StoreCode = store.StoreCode
-                               AND 
-                               inventory_position.Date BETWEEN '2014-05-01' AND '2014-05-31'
-                       )
+SELECT     DISTINCT(store.StoreDescription)
+FROM       stock.dbo.inventory_position
+LEFT JOIN  stock.dbo.store
+ON         inventory_position.StoreCode = store.StoreCode 
+WHERE      NOT EXISTS ( 
+                      SELECT  * 
+                      FROM    stock.dbo.inventory_position
+                      WHERE   inventory_position.StoreCode = store.StoreCode
+                              AND 
+                              inventory_position.Date BETWEEN '2014-05-01' AND '2014-05-31'
+                      )
 )
+
 UNION ALL
+
 (
 SELECT     store.StoreDescription
-FROM       inventory_position
-LEFT JOIN  store
+FROM       stock.dbo.inventory_position
+LEFT JOIN  stock.dbo.store
 ON         inventory_position.StoreCode = store.StoreCode
 WHERE      inventory_position.Date BETWEEN '2014-05-01' AND '2014-05-31'
 GROUP BY   store.StoreDescription
 HAVING     SUM(inventory_position.SalesRevenue) < 50
 )
-ORDER BY   store.StoreDescription ASC
 
+ORDER BY   store.StoreDescription ASC
 
 ```
 
