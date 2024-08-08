@@ -22,7 +22,7 @@ WHERE    T.row_count <= 1
 ``` sql
 
 SELECT     BuildingType,
-           SUM(SalesRevenue)  AS  TotalSales
+           SUM(SalesRevenue)            AS  TotalSales
 FROM       stock.dbo.inventory_position AS  i
 LEFT JOIN  stock.dbo.store              AS  s
 ON         i.StoreCode = s.StoreCode
