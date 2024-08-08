@@ -23,8 +23,8 @@ WHERE    T.row_count <= 1
 
 SELECT     BuildingType,
            SUM(SalesRevenue)  AS  TotalSales
-FROM       inventory_position AS  i
-LEFT JOIN  store              AS  s
+FROM       stock.dbo.inventory_position AS  i
+LEFT JOIN  stock.dbo.store              AS  s
 ON         i.StoreCode = s.StoreCode
 GROUP BY   BuildingType
 ORDER BY   TotalSales DESC
