@@ -76,7 +76,7 @@ SELECT TOP(1)
        SELECT  MAX(sum)
        FROM    (
                SELECT    SUM(SalesRevenue) AS sum 
-               FROM      inventory_position 
+               FROM      stock.dbo.inventory_position 
                WHERE     Date BETWEEN '2014-02-01' AND '2014-02-28'
                GROUP BY  StoreCode
                ) a
@@ -86,12 +86,13 @@ SELECT TOP(1)
        SELECT  MIN(sum) 
        FROM    (
                SELECT    SUM(SalesRevenue) AS sum 
-               FROM      inventory_position 
+               FROM      stock.dbo.inventory_position 
                WHERE     Date BETWEEN '2014-02-01' AND '2014-02-28'
                GROUP BY  StoreCode
                ) b
        )       AS dif
-FROM   inventory_position
+FROM   stock.dbo.inventory_position
+
 
 ```
 
@@ -102,7 +103,7 @@ SELECT TOP(1)
        (
        SELECT    TOP(1)
                  SUM(SalesRevenue) AS TotalSales
-       FROM      inventory_position
+       FROM      stock.dbo.inventory_position
        WHERE     Date  BETWEEN '2014-02-01' AND '2014-02-28'
        GROUP BY  StoreCode
        ORDER BY  TotalSales DESC
@@ -111,12 +112,12 @@ SELECT TOP(1)
        (
        SELECT    TOP(1)
                  SUM(SalesRevenue) AS TotalSales
-       FROM      inventory_position
+       FROM      stock.dbo.inventory_position
        WHERE     Date  BETWEEN '2014-02-01' AND '2014-02-28'
        GROUP BY  StoreCode
        ORDER BY  TotalSales ASC
        ) AS dif
 FROM
-       inventory_position
+       stock.dbo.inventory_position
 
 ```
