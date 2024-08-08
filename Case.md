@@ -2,24 +2,18 @@
 
 ``` sql
 
-SELECT  
-    StoreCode,
-    ProductCode,
-    Date,
-    StoreStock
-FROM
-    (
-    SELECT 
-        *,
-        ROW_NUMBER() OVER(
-                         PARTITION BY StoreCode, ProductCode ORDER BY Date DESC
-						 ) AS row_count
-    FROM
-        stock.dbo.inventory_position
-    )   AS  T
-WHERE 
-    T.row_count <= 1
-
+SELECT   StoreCode,
+         ProductCode,
+         Date,
+         StoreStock
+FROM     (
+         SELECT  *,
+                 ROW_NUMBER() OVER(
+                                  PARTITION BY StoreCode, ProductCode ORDER BY Date DESC
+                                  ) AS row_count
+         FROM    stock.dbo.inventory_position
+         ) AS    T
+WHERE    T.row_count <= 1
 
 ```
 
@@ -27,20 +21,13 @@ WHERE
 
 ``` sql
 
-SELECT
-	BuildingType,
-	SUM(SalesRevenue) AS TotalSales
-FROM
-	inventory_position AS i
-LEFT JOIN
-	store AS s
-ON	
-	i.StoreCode = s.StoreCode
-GROUP BY
-	BuildingType
-ORDER BY
-	TotalSales DESC
-
+SELECT     BuildingType,
+           SUM(SalesRevenue)  AS  TotalSales
+FROM       inventory_position AS  i
+LEFT JOIN  store              AS  s
+ON         i.StoreCode = s.StoreCode
+GROUP BY   BuildingType
+ORDER BY   TotalSales DESC
 
 ```
 
